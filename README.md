@@ -1,14 +1,14 @@
 # Analysis-of-A--Based-Mob-Pathfinding-Behavior-in-Minecraft
 Python Algorithm Comparison Program
 
-This project is a pathfinding simulator that emulates grid movement mechanics similar to the game Minecraft. It is designed to test, visualize, and compare the performance of four classic pathfinding algorithms.
+This program is a pathfinding simulator that emulates grid movement mechanics similar to the game Minecraft. It is designed to test, visualize, and compare the performance of four classic pathfinding algorithms.
 
 ## Overview
 
 The simulator evaluates the pathfinding performance from a Start point (`S`) to a Goal point (`G`) based on realistic grid parameters. 
 The map is constructed using two layers of matrices:
 1. **Terrain Matrix:** Defines the type of terrain being traversed.
-2. **Elevation Matrix:** Defines the elevation (height) of the blocks, which introduces time penalties for jumping and prevents the agent from jumping too high or falling too far.
+2. **Elevation Matrix:** Defines the elevation (height) of the blocks, which introduces time penalties for jumping and prevents the "zombie" from jumping too high or falling too far.
 
 Different block types have unique obstacles and movement costs:
 - `.` (Grass/Dirt) / `S` (Start) / `G` (Goal): Normal terrain.
