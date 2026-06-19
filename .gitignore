@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Hasil output gambar dan log simulasi
+result_*.png
+comparison_*.txt
+results_*/
